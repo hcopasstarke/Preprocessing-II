@@ -1,1 +1,30 @@
 // Navigation Styles here
+.nav {
+    padding-right: 2%;
+    display: flex;
+    border-bottom: 2px dashed @navigation-border;
+    
+    .title {
+        width: 50%;
+        float: left;
+    }
+
+    .navbar {
+        width: 48%;
+        padding-right: 2%;
+        float: right;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style-type: none;
+            
+            li a {
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                display: inline-block;
+        }
+    }
+}

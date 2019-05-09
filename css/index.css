@@ -168,6 +168,28 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  padding-right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav .title {
+  width: 50%;
+  float: left;
+}
+.nav .navbar {
+  width: 48%;
+  padding-right: 2%;
+  float: right;
+}
+.nav .navbar li {
+  list-style: none;
+}
+.nav .navbar li a {
+  text-decoration: none;
+  text-align: center;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -178,6 +200,16 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .top-section {
+  margin: 0 auto 30px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .top-section .img-content {
+  padding-bottom: 30px;
+}
+.home .top-section .text-content {
+  padding-right: 1%;
 }
 .home .content-section {
   margin: 30px 0;
