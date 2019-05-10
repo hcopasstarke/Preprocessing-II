@@ -389,12 +389,12 @@ img {
   }
 }
 .home .content-pick .destination .btn {
-  width: 98%;
-  padding: 0.6em;
   font-size: 1.6rem;
   color: white;
   text-align: center;
   background-color: #17A2B8;
+  width: 98%;
+  padding: 0.6em;
   border-radius: 10px;
 }
 @media (max-width: 500px) {
